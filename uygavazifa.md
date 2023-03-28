@@ -3,9 +3,9 @@
 1-misol
 https://edabit.com/challenge/Z5nLWN9XscsuRi2oT
 
-if(shape==="triangle"){
+if(shape=="triangle"){
 return base*height*0.5
-}else if(shape==="parallelogram"){
+}else if(shape=="parallelogram"){
 return base*height
 }
 
@@ -28,15 +28,15 @@ https://edabit.com/challenge/6kdGMdd78jpZ45ujo
 4-misol
 https://edabit.com/challenge/7Qx4M32b94h3P4dyt
 
-if (operator === "+"){
+if (operator == "+"){
 return num1 + num2
-}else if (operator === "-"){
+}else if (operator == "-"){
 return num1 - num2
-}else if (operator === "*"){
+}else if (operator == "*"){
 return num1 * num2
-}else if (operator === "/"){
+}else if (operator == "/"){
 return num1 / num2
-} else if (operator === "%"){
+} else if (operator == "%"){
 return num1 % num2
 }
 
@@ -54,7 +54,7 @@ return circumference > perimeter ? true : false
 6-misol
 https://edabit.com/challenge/kuzB5CMXiKDEYKXAP
 
-if (num % 2 === 0) {
+if (num % 2 == 0) {
 return "even";
 } else if(num % 2 != 0) {
 return "odd";
